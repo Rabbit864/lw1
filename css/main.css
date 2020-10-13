@@ -26,53 +26,6 @@
   align-items: center;
 }
 
-/* Intro */
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 130vh;
-}
-
-.intro__inner {
-  width: 100%;
-  max-width: 858px;
-  margin: 0 auto;
-}
-
-.intro__inner:after {
-  content: "";
-  display: block;
-  width: 640px;
-  height: 2px;
-  margin: 8px auto 0;
-  background-color: #000;
-}
-
-
-.intro__image {
-  text-align: center;
-}
-
-.intro__title {
-  text-align: center;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 54px;
-  line-height: 54px;
-}
-
-
-.intro__subtitle {
-  font-family: SF Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 170%;
-  text-align: center;
-}
-
 /* Nav */
 .nav {
   font-family: New York Small;
@@ -106,18 +59,70 @@
   display: block;
 }
 
-/* Articles */
-.articles {
+/* Intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 858px;
   margin: 0 auto;
 }
 
+.intro__inner:after {
+  content: "";
+  display: block;
+  width: 640px;
+  height: 2px;
+  margin: 34px auto 0;
+  background-color: #000;
+}
+
+
+.intro__image {
+  text-align: center;
+}
+
+.intro__title {
+  font-family: New York Extra Large;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 54px;
+}
+
+
+.intro__subtitle {
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: center;
+  max-width: 592px;
+  max-height: 68px;
+  margin: 0 auto;
+}
+
+/* Articles */
+.articles {
+  margin: 64px auto 0;
+}
+
 .articles__title {
+  font-family: New York Extra Large;
   margin: 0 auto 39px;
   text-align: center;
   font-size: 44px;
 }
 
-.articles__inner{
+.articles__inner {
   display: flex;
   justify-content: center;
 }
@@ -127,10 +132,39 @@
 }
 
 .articles__item {
-  margin-bottom: 64px;
+  max-height: 232px;
+  max-width: 304px;
+  margin-bottom: 70px;
+}
+
+.item__image {
+  margin-bottom: 20px;
 }
 
 .item__text {
+  font-family: SF Pro Display;
+  font-size: 22px;
+
   text-align: center;
 }
 
+/* Fonts */
+@font-face {
+  font-family: New York Small;
+  src: url(../fonts/NewYorkSmall-Medium.otf);
+}
+
+@font-face {
+  font-family: New York Extra Large;
+  src: url(../fonts/NewYorkExtraLarge-Bold.otf);
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(../fonts/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: SF Mono;
+  src: url(../fonts/SF-Mono.ttf);
+}
