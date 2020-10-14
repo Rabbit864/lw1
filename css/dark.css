@@ -1,0 +1,23 @@
+body {
+  background-color: #6A5ACD;
+}
+
+.nav__link {
+  color: #fff;
+}
+
+.intro__title {
+  color: #FFDAB9;
+}
+
+.intro__subtitle {
+  color: #FFDAB9;
+}
+
+.articles__title {
+  color: #fff;
+}
+
+.item__text {
+  color: #F4A460;
+}
