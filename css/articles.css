@@ -1,3 +1,24 @@
+/* Fonts */
+@font-face {
+  font-family: New York Small;
+  src: url(../fonts/NewYorkSmall-Medium.otf);
+}
+
+@font-face {
+  font-family: New York Extra Large;
+  src: url(../fonts/NewYorkExtraLarge-Bold.otf);
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(../fonts/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: SF Mono;
+  src: url(../fonts/SF-Mono.ttf);
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -144,25 +165,4 @@
   font-family: SF Pro Display;
   font-size: 22px;
   text-align: center;
-}
-
-/* Fonts */
-@font-face {
-  font-family: New York Small;
-  src: url(../fonts/NewYorkSmall-Medium.otf);
-}
-
-@font-face {
-  font-family: New York Extra Large;
-  src: url(../fonts/NewYorkExtraLarge-Bold.otf);
-}
-
-@font-face {
-  font-family: SF Pro Display;
-  src: url(../fonts/SF-Pro-Display-Medium.otf);
-}
-
-@font-face {
-  font-family: SF Mono;
-  src: url(../fonts/SF-Mono.ttf);
 }
