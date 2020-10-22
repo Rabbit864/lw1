@@ -41,7 +41,7 @@
   z-index: 1000;
 }
 
-.header__inner {
+.header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@
   text-transform: uppercase;
 }
 
-.nav__link {
+.nav-link {
   display: inline-block;
   margin: 0 15px;
   vertical-align: top;
@@ -62,7 +62,7 @@
   position: relative;
 }
 
-.nav__link:after {
+.nav-link:after {
   content: "";
   display: none;
   width: 100%;
@@ -75,7 +75,7 @@
   margin-top: 41px;
 }
 
-.nav__link:hover:after {
+.nav-link:hover:after {
   display: block;
 }
 
@@ -88,13 +88,13 @@
   margin-top: 200px;
 }
 
-.intro__inner {
+.intro-inner {
   width: 100%;
   max-width: 858px;
   margin: 0 auto;
 }
 
-.intro__inner:after {
+.intro-inner:after {
   content: "";
   display: block;
   width: 640px;
@@ -104,11 +104,11 @@
 }
 
 
-.intro__image {
+.intro-image {
   text-align: center;
 }
 
-.intro__title {
+.intro-title {
   font-family: New York Extra Large;
   text-align: center;
   font-style: normal;
@@ -118,7 +118,7 @@
 }
 
 
-.intro__subtitle {
+.intro-subtitle {
   font-family: SF Mono;
   font-style: normal;
   font-weight: normal;
@@ -133,35 +133,34 @@
 /* Articles */
 .articles {
   margin: 64px auto 0;
+  max-width: 640px;
+  max-height: 1900px;
 }
 
-.articles__title {
+.articles-title {
   font-family: New York Extra Large;
   margin: 0 auto 39px;
   text-align: center;
   font-size: 44px;
 }
 
-.articles__inner {
+.articles-inner {
   display: flex;
-  justify-content: center;
-}
-.articles__column {
-  max-width: 304px;
-  margin-right: 28px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.articles__item {
+.articles-item {
   max-height: 232px;
   max-width: 304px;
   margin-bottom: 100px;
 }
 
-.item__image {
+.item-image {
   margin-bottom: 20px;
 }
 
-.item__text {
+.item-text {
   font-family: SF Pro Display;
   font-size: 22px;
   text-align: center;

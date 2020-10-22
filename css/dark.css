@@ -2,22 +2,22 @@ body {
   background-color: #6A5ACD;
 }
 
-.nav__link {
+.nav-link {
   color: #fff;
 }
 
-.intro__title {
+.intro-title {
   color: #FFDAB9;
 }
 
-.intro__subtitle {
+.intro-subtitle {
   color: #FFDAB9;
 }
 
-.articles__title {
+.articles-title {
   color: #fff;
 }
 
-.item__text {
+.item-text {
   color: #F4A460;
 }
